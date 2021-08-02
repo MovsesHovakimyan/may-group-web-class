@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+<form></form>
+    <table style="
+        border: 1px solid;">
+        <thead style="border: 1px solid;">
+            <tr>
+                <th scope="col">Novell Services Login</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row"><label for="Username">Username:</label>
+                </td>
+                <th>
+                    <input type="text" name="name" id="Username">
+                </th>
+            </tr>
+            <tr>
+                <td scope="row"> <label for="Password"> Password:</label>
+                </td>
+                <th> 
+                    <input type="Password" name="Password" id="Password">            
+                </th> 
+            </tr>
+            <tr>
+                <td scope="row"><label for="City">City of Employment:</label>
+                </td>
+                <th><input type="text" name="City" id="City">
+                </th>
+            </tr>
+            <tr>
+                <td scope="row">Web Server:
+                </td>
+                <th> 
+                    <select id="Server" name="Server">
+                    <option value="Choose a server">-- Choose a server --</option>
+                    <option value="Apache HTTP Server">Apache HTTP Server</option>
+                    <option value="Apache Tomcat">Apache Tomcat</option>
+                    <option value="BusyBox httpd">BusyBox httpd</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <td scope="row"><label for="Specify">Please specify your role:</label>
+                </td>
+                <th>
+                    <input type="radio" id="Admin" name="fav_language" value="Admin">
+                    <label for="Admin">Admin</label><br>
+                    <input type="radio" id="Enginer" name="fav_language" value="Enginer">
+                    <label for="Enginer">Enginer</label><br>
+                    <input type="radio" id="Manager" name="fav_language" value="Manager">
+                    <label for="Manager">Manager</label><br>
+                    <input type="radio" id="Guest" name="fav_language" value="Guest">
+                    <label for="Guest">Guest</label></th>
+            </tr>
+            <tr>
+                <td scope="row"><label for="Follow">Singl Sign-on to the following:</label>
+                </td>
+                <th><input type="checkbox" id="Mail" name="Mail" value="Mail">
+                    <label for="Mail">Mail</label><br>
+                    <input type="checkbox" id="Payroll" name="Payroll" value="Payroll">
+                    <label for="Payroll">Payroll</label><br>
+                    <input type="checkbox" id="Self-service" name="Self-service" value="Self-service">
+                    <label for="Self-service">Self-service</label>
+                    </th>
+            </tr>
+            <tr>
+                <td scope="row"><input type="submit" value="Login">
+                    <input type="Reset" value="Reset"> </td>
+            </tr>
+            
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
